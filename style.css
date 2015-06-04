@@ -1,58 +1,60 @@
 .subscribe{
-	margin: 0 auto;
+	margin: 0;
+	
+
 }
 nav{
+	height: 38px;
+	width: 1200px;
+	/*background: red;*/
+	float: left;
 	border-bottom: 1px solid #ccc;
-	height: 40px;
-	width: 100%;
 }
 
-.main-nav{
-	margin-left: auto;
-	margin-right: auto;	
-	max-width: 57em;
-	height: 30px;
+.main-nav  {
+	float: left;
 }
 
-.logo ul li{
-	border-right: 1px solid #eaeaea;
-	height: 25px;
-	width: 10%;
+.main-nav .logo{
+	float: left;
+	height: 38px;
+	width: 130px;
+	/*background: gold;*/
+	border-right: 1px solid #ccc;
+	margin-left: 100px;
+
+}
+.logo ul {
+	list-style: none;	
+}
+
+.main-menu{
+	height: 38px;
+	width: 800px;
+	/*background: orange;*/
+	margin-left: 300px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+
+
+.main-menu  li{
 	float: left;
 	list-style: none;
-	padding-bottom: auto;
-	padding-top:15px; 
+	height: 38px;
+	width: 50px;
+	padding-left: 20px;
+	border-left: 1px solid #ccc;
+	/*background: teal;*/
 	
 }
 
-#main-menu{
-	height: 40px;
-	width: 75%;
-	float: right;
-
-}
-
-#main-menu li{
-	
-	/*width: auto;*/
-	
-}
-
-#main-menu li a { 
-	font-size: 12px;
-	font-family: sans-serif;
+.main-menu a{
 	text-decoration: none;
-	color: black;
 	font-weight: bold;
-	padding: 1em 1em;
-	border-left: 1px solid #eaeaea;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: black;
+	/*float: left;*/
 }
-
-#main-menu ul li{
-	float: left;
-	list-style: none;
-}
-#main-menu ul li:hover{
-	background: grey ;
-}
-
