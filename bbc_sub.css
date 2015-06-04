@@ -1,46 +1,41 @@
 .subscribe{
 	margin: 0 auto;
 }
-
 nav{
 	border-bottom: 1px solid #ccc;
 	height: 40px;
 	width: 100%;
-	
 }
+
 .main-nav{
 	margin-left: auto;
-	margin-right: auto;
-	
+	margin-right: auto;	
 	max-width: 57em;
-	height: 40px;
-
+	height: 30px;
 }
 
-.logo ul img{
-	
-}
 .logo ul li{
 	border-right: 1px solid #eaeaea;
-	height: 40px;
-	width: 20%;
+	height: 25px;
+	width: 10%;
 	float: left;
 	list-style: none;
-	padding-top: 4px;
 	padding-bottom: auto;
-	padding-top: 8px; 
+	padding-top:15px; 
 	
 }
+
 #main-menu{
 	height: 40px;
-	width: 70%;
+	width: 75%;
 	float: right;
-	/*border-left: 1px solid #eaeaea;*/
 
 }
+
 #main-menu li{
-	border-left: 1px solid #eaeaea;
-	width: auto;
+	
+	/*width: auto;*/
+	
 }
 
 #main-menu li a { 
@@ -50,14 +45,14 @@ nav{
 	color: black;
 	font-weight: bold;
 	padding: 1em 1em;
-	
+	border-left: 1px solid #eaeaea;
 }
 
 #main-menu ul li{
 	float: left;
 	list-style: none;
-	
-	
 }
-
+#main-menu ul li:hover{
+	background: grey ;
+}
 
