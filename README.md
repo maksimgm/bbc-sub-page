@@ -1,4 +1,3 @@
-README
-===
+# BBC Newsletter Page
 
-#### This repository contains HTML and CSS file meant to replicate the BBC Newsletter page
+A replicata of the BBC Newsletter page
