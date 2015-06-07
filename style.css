@@ -66,49 +66,35 @@ nav{
 .main-nav  {
 	margin-left: auto;
 	margin-right: auto;
-	background: cyan;
-	max-width: 900px;
-
-	/*LEFT OFF HERE*/
+	max-width: 1000px;
 }
 
 .main-nav .logo{
 	float: left;
-	height: 40px;
-	width: 200px;
-	background: gold;
+	height: 32px;
+	width: 100px;	
+}
+.logo a{
+	padding: 8px 0px 0px 100px;
 	border-right: 1px solid #ccc;
-
-
 }
-
 .main-menu{
-	height: 38px;
-	width: 800px;
-	/*background: orange;*/
+	height: 40px;
+	width: 800px;	
 	margin-left: 300px;
-	margin-top: 0px;
-	padding-top: 0px;
 }
-
-
-
 .main-menu  li{
-	float: right;
+	float: left;
 	list-style: none;
-	height: 38px;
-	width: 50px;
-	padding-left: 20px;
+	height: 30px;
+	width: 40px;
+	padding: 10px 14px 0px 14px;	
 	border-left: 1px solid #ccc;
-	/*background: teal;*/
-	
 }
-
 .main-menu a{
 	text-decoration: none;
 	font-weight: bold;
 	font-family: sans-serif;
 	font-size: 12px;
 	color: black;
-	/*float: left;*/
 }
