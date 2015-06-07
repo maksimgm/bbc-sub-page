@@ -86,9 +86,9 @@ nav{
 .main-menu  li{
 	float: left;
 	list-style: none;
-	height: 30px;
+	height: 23px;
 	width: 40px;
-	padding: 10px 14px 0px 14px;	
+	padding: 14px 14px 0px 14px;	
 	border-left: 1px solid #ccc;
 }
 .main-menu a{
