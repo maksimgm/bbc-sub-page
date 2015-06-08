@@ -55,10 +55,12 @@ table {
 	border-spacing: 0;
 }
 
+/*Body*/
 .subscribe{
 	margin: 0;
 }
 
+/*Navigation Bar*/
 nav{
 	border-bottom: 1px solid #ccc;
 }
@@ -71,11 +73,11 @@ nav{
 
 .main-nav .logo{
 	float: left;
-	height: 32px;
+	height: 40px;
 	width: 100px;	
 }
-.logo a{
-	padding: 8px 0px 0px 100px;
+.logo img{
+	padding: 7px 40px 8px 100px;
 	border-right: 1px solid #ccc;
 }
 .main-menu{
@@ -86,9 +88,9 @@ nav{
 .main-menu  li{
 	float: left;
 	list-style: none;
-	height: 23px;
+	height: 38px;
 	width: 40px;
-	padding: 14px 14px 0px 14px;	
+	padding: 0px 14px 0px 14px;	
 	border-left: 1px solid #ccc;
 }
 .main-menu a{
@@ -97,6 +99,8 @@ nav{
 	font-family: sans-serif;
 	font-size: 12px;
 	color: black;
+	display: inline-block;
+	margin-top: 15px;
 }
 .content {
 	margin-left: auto;
