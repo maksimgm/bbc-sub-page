@@ -77,14 +77,17 @@ nav{
 	width: 100px;	
 	border-right: 1px solid #ccc;
 }
+
 .logo img{
 	margin: 8px 0px 8px 0px;
 }
+
 .main-menu{
 	height: 40px;
 	width: 700px;	
 	margin-left: 210px;
 }
+
 .main-menu  li{
 	float: left;
 	list-style: none;
@@ -92,6 +95,7 @@ nav{
 	padding: 0px 14px 0px 14px;	
 	border-left: 1px solid #ccc;
 }
+
 .main-menu a{
 	text-decoration: none;
 	font-weight: bold;
@@ -101,49 +105,59 @@ nav{
 	display: inline-block;
 	margin-top: 15px;	
 }
+
 /*Section*/
 .content {
 	margin-left: auto;
 	margin-right: auto;
 	width: 900px;
 }
+
 header{
 	height: 60px;
 	border-bottom: 1px solid #ccc;
 }
+
 h1{
 	font-size: 40px;
 	color: black;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
+
 article{
 	height: 600px;
 	float: left;
 	width: 400px;
 }
+
 aside{
 	height: 600px;
 	float: right;
 	width: 500px;
 }
+
 .image{
 	padding: 80px 0px 100px 20px;
 }
+
 .sign-up{
 	
 	height: 150px;
 }
+
 .sign-up h1{
 	font-weight: bold;
 	color: black;
 	font-size: 24px;
 }
+
 .sign-up p{
 	font-size: 14px;
 	color: #505050;
 	font-family: sans-serif;
 }
+
 .email {
 	height: 80px;
 }
@@ -156,6 +170,7 @@ aside{
 	font-family: sans-serif;
 	height: 25px;
 }
+
 .email .email-form{
 	height: 50px;
 }
@@ -175,11 +190,8 @@ aside{
 	height: 80px;
 	/*background: https://image.exct.net/lib/fe9713707565037c7d/m/1/down2.gif (new-arrow.png) no-repeat right black;*/
 	margin-top: 10px;
-
 }
 
-/*Having issues styling the select bar & adding customized button.
-*/
 .country h2{
 	background: white;
 	padding-bottom: 5px;
@@ -188,6 +200,7 @@ aside{
 	font-family: sans-serif;
 	height: 25px;
 }
+
 select{
 	height: 40px;
 	width: 390px;
@@ -196,10 +209,11 @@ select{
 
 .radio-button input {
 	margin-right: 10px;
-	-webkit-appearance: checkbox;
+	-webkit-appearance: square-button;
 	float: left;
-	
+	cursor: pointer;
 }
+
 .radio-button p{
 	font-size: 13px;
 	color: #505050;
@@ -211,6 +225,7 @@ select{
 	height: 100px;
 	margin-top: 20px;
 }
+
 p{
 	font-size: 14px;
 	color: #505050;
@@ -221,6 +236,7 @@ p{
 	height: 80px;
 
 }
+
 .submit input{
 	height: 40px;
 	width: 90px;
@@ -230,6 +246,3 @@ p{
 	border: 0;
 	font-size: 18px;
 }
-
-
-
