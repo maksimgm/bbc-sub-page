@@ -155,11 +155,11 @@ aside{
 	font-family: sans-serif;
 	height: 25px;
 }
-.email form{
+.email .email-form{
 	height: 50px;
 }
 
-input{
+.email-form input{
 	height: 40px;
 	width: 370px;
 	background: #e4e4e4;
@@ -167,6 +167,7 @@ input{
 	font-weight: bold;
 	font-family: sans-serif;
 	font-size: 12px;
+	border: none;
 }
 
 .country {
@@ -176,7 +177,7 @@ input{
 
 }
 
-/*Having issues styling th select bar & adding customized button.
+/*Having issues styling the select bar & adding customized button.
 */
 .country h2{
 	background: white;
