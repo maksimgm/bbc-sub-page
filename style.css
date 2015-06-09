@@ -171,9 +171,13 @@ input{
 
 .country {
 	height: 80px;
-	background: maroon;
+	/*background: https://image.exct.net/lib/fe9713707565037c7d/m/1/down2.gif (new-arrow.png) no-repeat right black;*/
 	margin-top: 10px;
+
 }
+
+/*Having issues styling th select bar & adding customized button.
+*/
 .country h2{
 	background: white;
 	padding-bottom: 5px;
@@ -184,7 +188,6 @@ input{
 }
 select{
 	height: 40px;
-	width: 385px;
+	width: 390px;
 	background: #e4e4e4;
-	overflow: hidden;
 }
