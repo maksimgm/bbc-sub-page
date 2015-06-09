@@ -142,6 +142,7 @@ aside{
 .sign-up p{
 	font-size: 14px;
 	color: #505050;
+	font-family: sans-serif;
 }
 .email {
 	height: 80px;
@@ -192,3 +193,43 @@ select{
 	width: 390px;
 	background: #e4e4e4;
 }
+
+.radio-button input {
+	margin-right: 10px;
+	-webkit-appearance: checkbox;
+	float: left;
+	
+}
+.radio-button p{
+	font-size: 13px;
+	color: #505050;
+	font-family: sans-serif;
+}
+
+.subscribe-info {
+
+	height: 100px;
+	margin-top: 20px;
+}
+p{
+	font-size: 14px;
+	color: #505050;
+	font-family: sans-serif;	
+}
+
+.submit {
+	height: 80px;
+
+}
+.submit input{
+	height: 40px;
+	width: 90px;
+	background: #124e84;
+	color: white;
+	font-weight: bold;
+	border: 0;
+	font-size: 18px;
+}
+
+
+
