@@ -68,31 +68,34 @@ nav{
 .main-nav  {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 1000px;
+	width: 900px;
 }
 
 .main-nav .logo{
 	float: left;
 	height: 40px;
 	width: 100px;	
-}
-.logo img{
-	padding: 7px 40px 8px 100px;
 	border-right: 1px solid #ccc;
 }
+
+.logo img{
+	margin: 8px 0px 8px 0px;
+}
+
 .main-menu{
 	height: 40px;
-	width: 800px;	
-	margin-left: 300px;
+	width: 700px;	
+	margin-left: 210px;
 }
+
 .main-menu  li{
 	float: left;
 	list-style: none;
 	height: 40px;
-	width: 40px;
 	padding: 0px 14px 0px 14px;	
 	border-left: 1px solid #ccc;
 }
+
 .main-menu a{
 	text-decoration: none;
 	font-weight: bold;
@@ -100,5 +103,146 @@ nav{
 	font-size: 12px;
 	color: black;
 	display: inline-block;
-	margin-top: 15px;
+	margin-top: 15px;	
+}
+
+/*Section*/
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+}
+
+header{
+	height: 60px;
+	border-bottom: 1px solid #ccc;
+}
+
+h1{
+	font-size: 40px;
+	color: black;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+article{
+	height: 600px;
+	float: left;
+	width: 400px;
+}
+
+aside{
+	height: 600px;
+	float: right;
+	width: 500px;
+}
+
+.image{
+	padding: 80px 0px 100px 20px;
+}
+
+.sign-up{
+	
+	height: 150px;
+}
+
+.sign-up h1{
+	font-weight: bold;
+	color: black;
+	font-size: 24px;
+}
+
+.sign-up p{
+	font-size: 14px;
+	color: #505050;
+	font-family: sans-serif;
+}
+
+.email {
+	height: 80px;
+}
+
+.email h2{
+	background: white;
+	padding-bottom: 5px;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: sans-serif;
+	height: 25px;
+}
+
+.email .email-form{
+	height: 50px;
+}
+
+.email-form input{
+	height: 40px;
+	width: 370px;
+	background: #e4e4e4;
+	padding-left: 15px;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 12px;
+	border: none;
+}
+
+.country {
+	height: 80px;
+	/*background: https://image.exct.net/lib/fe9713707565037c7d/m/1/down2.gif (new-arrow.png) no-repeat right black;*/
+	margin-top: 10px;
+}
+
+.country h2{
+	background: white;
+	padding-bottom: 5px;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: sans-serif;
+	height: 25px;
+}
+
+select{
+	height: 40px;
+	width: 390px;
+	background: #e4e4e4;
+}
+
+.radio-button input {
+	height: 12px;
+	width: 12px;
+	-webkit-appearance: checkbox;
+	float: left;
+	cursor: pointer;
+}
+
+.radio-button p{
+	font-size: 13px;
+	color: #505050;
+	font-family: sans-serif;
+}
+
+.subscribe-info {
+
+	height: 100px;
+	margin-top: 20px;
+}
+
+p{
+	font-size: 14px;
+	color: #505050;
+	font-family: sans-serif;	
+}
+
+.submit {
+	height: 80px;
+}
+
+.submit input{
+	height: 40px;
+	width: 90px;
+	background: #124e84;
+	color: white;
+	font-weight: bold;
+	border: 0;
+	font-size: 18px;
 }
