@@ -56,7 +56,7 @@ table {
 }
 
 /*Typography*/
-h1, h2, h3, h4, h5, h6, p, a{
+h1, h2, h3, h4, h5, h6, p, a, li{
 	font-family: sans-serif;
 	margin: 0;
 	padding: 0;
@@ -246,3 +246,70 @@ p{
 	border: 0;
 	font-size: 18px;
 }
+
+/*Footer*/
+footer{
+	height: 200px;
+	clear: both;
+	margin-top: 700px;
+}
+
+.main-footer{
+	margin-left: auto;
+	margin-right: auto;
+	background: #646464;
+	height: 120px;
+	width: 900px;
+}
+
+.external-links{
+	float: left;
+	width: 350px;
+	height: 120px;
+}
+
+.left-wrapper{
+	margin: 20px 0px 0px 20px;
+}
+
+.left-wrapper a, .left-wrapper p{
+ 	text-decoration: none;
+ 	color: white;
+ 	font-family: sans-serif;
+ 	margin-top: 10px;
+ 	font-size: 12px;
+ }
+
+ .left-wrapper a:hover {
+ 	border-bottom: 1px solid white;
+ }
+
+.more-info{
+	width: 550px;
+	height: 120px;
+	float: right;
+}
+
+.left-info, .middle-info, .right-info{
+	height: 120px;
+	width: 183px;
+	float: left;
+	margin-top: 15px;
+}
+
+.left-info ul li, .middle-info ul li, .right-info ul li{
+	font-size: 12px;
+	font-weight: normal;
+	
+	display:block;
+	margin-top: 10px;
+}
+
+.left-info a, .middle-info a, .right-info a{
+	text-decoration: none;
+	color: white;
+}
+
+ .right-wrapper a:hover {
+ 	border-bottom: 1px solid white;
+ }
