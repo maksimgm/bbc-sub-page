@@ -208,8 +208,9 @@ select{
 }
 
 .radio-button input {
-	margin-right: 10px;
-	-webkit-appearance: square-button;
+	height: 12px;
+	width: 12px;
+	-webkit-appearance: checkbox;
 	float: left;
 	cursor: pointer;
 }
