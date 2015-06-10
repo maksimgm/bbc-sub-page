@@ -55,6 +55,13 @@ table {
 	border-spacing: 0;
 }
 
+/*Typography*/
+h1, h2, h3, h4, h5, h6, p, a{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
 /*Body*/
 .subscribe{
 	margin: 0;
@@ -99,7 +106,6 @@ nav{
 .main-menu a{
 	text-decoration: none;
 	font-weight: bold;
-	font-family: sans-serif;
 	font-size: 12px;
 	color: black;
 	display: inline-block;
@@ -155,7 +161,6 @@ aside{
 .sign-up p{
 	font-size: 14px;
 	color: #505050;
-	font-family: sans-serif;
 }
 
 .email {
@@ -167,7 +172,6 @@ aside{
 	padding-bottom: 5px;
 	font-weight: bold;
 	font-size: 16px;
-	font-family: sans-serif;
 	height: 25px;
 }
 
@@ -181,7 +185,6 @@ aside{
 	background: #e4e4e4;
 	padding-left: 15px;
 	font-weight: bold;
-	font-family: sans-serif;
 	font-size: 12px;
 	border: none;
 }
@@ -197,7 +200,6 @@ aside{
 	padding-bottom: 5px;
 	font-weight: bold;
 	font-size: 16px;
-	font-family: sans-serif;
 	height: 25px;
 }
 
@@ -218,7 +220,6 @@ select{
 .radio-button p{
 	font-size: 13px;
 	color: #505050;
-	font-family: sans-serif;
 }
 
 .subscribe-info {
@@ -230,7 +231,6 @@ select{
 p{
 	font-size: 14px;
 	color: #505050;
-	font-family: sans-serif;	
 }
 
 .submit {
