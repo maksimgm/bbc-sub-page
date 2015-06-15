@@ -209,21 +209,19 @@ select{
 	background: #e4e4e4;
 }
 
-.radio-button input {
+.checkbox input {
 	height: 12px;
 	width: 12px;
-	-webkit-appearance: checkbox;
 	float: left;
 	cursor: pointer;
 }
 
-.radio-button p{
+.checkbox p{
 	font-size: 13px;
 	color: #505050;
 }
 
 .subscribe-info {
-
 	height: 100px;
 	margin-top: 20px;
 }
@@ -300,7 +298,6 @@ footer{
 .left-info ul li, .middle-info ul li, .right-info ul li{
 	font-size: 12px;
 	font-weight: normal;
-	
 	display:block;
 	margin-top: 10px;
 }
