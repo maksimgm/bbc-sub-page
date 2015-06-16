@@ -205,10 +205,18 @@ aside{
 
 select{
 	height: 40px;
-	width: 390px;
+	width: 370px;
 	background: #e4e4e4;
+	border: none;
+	position: relative;
 }
-
+.country img{
+	position: absolute;
+	left: 500px;
+	/*background: transparent
+	overflow: hidden;
+	*/
+}
 .checkbox input {
 	height: 12px;
 	width: 12px;
@@ -243,6 +251,7 @@ p{
 	font-weight: bold;
 	border: 0;
 	font-size: 18px;
+	text-align: left;
 }
 
 /*Footer*/
