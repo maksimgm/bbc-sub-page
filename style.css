@@ -206,17 +206,16 @@ aside{
 select{
 	height: 40px;
 	width: 370px;
-	background: #e4e4e4;
 	border: none;
 	position: relative;
+	background: url(custom-arrow.png) 96% 15% no-repeat #e4e4e4;
+	/*read about the above*/
+	-webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-left: 10px;
 }
-.country img{
-	position: absolute;
-	left: 500px;
-	/*background: transparent
-	overflow: hidden;
-	*/
-}
+
 .checkbox input {
 	height: 12px;
 	width: 12px;
