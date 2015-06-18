@@ -56,7 +56,7 @@ table {
 }
 
 /*Typography*/
-h1, h2, h3, h4, h5, h6, p, a{
+h1, h2, h3, h4, h5, h6, p, a, li{
 	font-family: sans-serif;
 	margin: 0;
 	padding: 0;
@@ -191,7 +191,6 @@ aside{
 
 .country {
 	height: 80px;
-	/*background: https://image.exct.net/lib/fe9713707565037c7d/m/1/down2.gif (new-arrow.png) no-repeat right black;*/
 	margin-top: 10px;
 }
 
@@ -205,25 +204,29 @@ aside{
 
 select{
 	height: 40px;
-	width: 390px;
-	background: #e4e4e4;
+	width: 370px;
+	border: none;
+	position: relative;
+	background: url(custom-arrow.png) 96% 15% no-repeat #e4e4e4;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	padding-left: 10px;
 }
 
-.radio-button input {
+.checkbox input {
 	height: 12px;
 	width: 12px;
-	-webkit-appearance: checkbox;
 	float: left;
 	cursor: pointer;
 }
 
-.radio-button p{
+.checkbox p{
 	font-size: 13px;
 	color: #505050;
 }
 
 .subscribe-info {
-
 	height: 100px;
 	margin-top: 20px;
 }
@@ -245,4 +248,70 @@ p{
 	font-weight: bold;
 	border: 0;
 	font-size: 18px;
+	text-align: left;
 }
+
+/*Footer*/
+footer{
+	height: 200px;
+	margin-top: 700px;
+}
+
+.main-footer{
+	margin-left: auto;
+	margin-right: auto;
+	background: #646464;
+	height: 120px;
+	width: 900px;
+}
+
+.external-links{
+	float: left;
+	width: 350px;
+	height: 120px;
+}
+
+.left-wrapper{
+	margin: 20px 0px 0px 20px;
+}
+
+.left-wrapper a, .left-wrapper p{
+ 	text-decoration: none;
+ 	color: white;
+ 	font-family: sans-serif;
+ 	margin-top: 10px;
+ 	font-size: 12px;
+ }
+
+ .left-wrapper a:hover {
+ 	border-bottom: 1px solid white;
+ }
+
+.more-info{
+	width: 550px;
+	height: 120px;
+	float: right;
+}
+
+.left-info, .middle-info, .right-info{
+	height: 120px;
+	width: 183px;
+	float: left;
+	margin-top: 15px;
+}
+
+.left-info ul li, .middle-info ul li, .right-info ul li{
+	font-size: 12px;
+	font-weight: normal;
+	display:block;
+	margin-top: 10px;
+}
+
+.left-info a, .middle-info a, .right-info a{
+	text-decoration: none;
+	color: white;
+}
+
+ .right-wrapper a:hover {
+ 	border-bottom: 1px solid white;
+ }
